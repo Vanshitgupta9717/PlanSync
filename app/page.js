@@ -200,17 +200,17 @@ import Image from "next/image";
 
 const faqs = [
   {
-    question: "What is PlaySync?",
+    question: "What is PlanSync?",
     answer:
       "PlaySync is your all-in-one collaboration platform, bringing seamless sync to projects, meetings, schedules, and more — all with a touch of play.",
   },
   {
-    question: "Who can benefit from PlaySync?",
+    question: "Who can benefit from PlanSync?",
     answer:
       "Whether you're a startup, a remote team, or an enterprise, PlaySync is built to scale with you, offering flexible tools to match your rhythm.",
   },
   {
-    question: "What makes PlaySync different?",
+    question: "What makes PlanSync different?",
     answer:
       "We combine rich features with delightful UX. Our design-first approach helps teams move faster, stay in sync, and actually enjoy project management.",
   },
@@ -245,7 +245,7 @@ export default function Home() {
         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold leading-tight mb-6">
           Work. Sync. Play. <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-pink-500">
-            With PlaySync
+            With PlanSync
           </span>
         </h1>
         <p className="text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
@@ -316,7 +316,7 @@ export default function Home() {
         <div className="container mx-auto">
           <h3 className="text-3xl font-bold mb-6">Let’s Get in Sync</h3>
           <p className="text-xl mb-12 text-gray-300 max-w-xl mx-auto">
-            PlaySync helps teams around the world collaborate, iterate, and deliver with joy.
+            PlanSync helps teams around the world collaborate, iterate, and deliver with joy.
           </p>
           <Link href="/onboarding">
             <Button size="lg" className="bg-pink-500 hover:bg-pink-400 animate-pulse">
